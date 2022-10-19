@@ -81,6 +81,12 @@ const Home = () => {
                 s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                 s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
             }
+            if(Math.abs(valueS0) != arr[0]){
+                $('.smooth-navbar').addClass('active')
+            }
+            else{
+                $('.smooth-navbar').removeClass('active')
+            }
             
             /*if(Math.abs(valueS0) == arr[1] && divBottom){
                 
@@ -113,6 +119,13 @@ const Home = () => {
                 s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                 s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
             }
+            if(Math.abs(valueS0) != arr[0]){
+                $('.smooth-navbar').addClass('active')
+            }
+            else{
+                $('.smooth-navbar').removeClass('active')
+            }
+            
         }
     }
 
@@ -143,6 +156,13 @@ const Home = () => {
                     s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                     s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
                 }
+                if(Math.abs(valueS0) != arr[0]){
+                    $('.smooth-navbar').addClass('active')
+                }
+                else{
+                    $('.smooth-navbar').removeClass('active')
+                }
+                
             }
 
             if (e.code == 'ArrowUp') {
@@ -162,6 +182,13 @@ const Home = () => {
                     s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                     s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
                 }
+                if(Math.abs(toGoS0) != arr[0]){
+                    $('.smooth-navbar').addClass('active')
+                }
+                else{
+                    $('.smooth-navbar').removeClass('active')
+                }
+                
             }
         }
     }
