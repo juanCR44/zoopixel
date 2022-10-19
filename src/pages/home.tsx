@@ -103,6 +103,9 @@ const Home = () => {
         else {
             let valueS0 = parseFloat(s0.css('transform').split(',')[5])
             let toGoS0 = valueS0 + dif
+            if (valueS0 == arr[0]) {
+                toGoS0 = 0
+            }
             if (arr.includes(Math.abs(toGoS0)) && valueS0 != 0) {
                 let valueS1 = parseFloat(s1.css('transform').split(',')[5])
                 let toGoS1 = valueS1 + dif

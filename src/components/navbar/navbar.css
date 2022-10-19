@@ -9,7 +9,7 @@
     height: auto;
     padding: 4px 0;
     z-index: 1000;
-    transition: .5s padding ease;
+    transition: .3s padding ease;
 }
 .smooth-navbar.active {
     background-image: linear-gradient(114.85deg,rgba(199, 199, 199, 0.75),rgba(206, 206, 206, 0.8) 100.24%);
@@ -40,6 +40,8 @@
 .anchor-row li:last-child{
     width: 200px;
     border-right: 1px solid rgba(211, 211, 211, 0.4);
+    padding-right: 0;
+    transition: .3s padding-right ease;
 }
 .anchor-row li:first-child{
     border-end-start-radius: 15px;
@@ -52,7 +54,15 @@
     display: block; 
     color: #fff;
     transform: skew(-30deg);
-    padding: 1.6em 2em;
+    padding: 1.6em 2.5em;
     font-size: 18px;
     width: 100px;
+    transition: .3s padding ease;
+}
+
+.anchor-link:hover{
+    padding: 1.6em 3.5em;
+}
+.anchor-row li:last-child:hover{
+    padding-right: 2.3em;
 }
