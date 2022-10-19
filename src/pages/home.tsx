@@ -142,7 +142,7 @@ const Home = () => {
             if (e.code == 'ArrowDown') {
                 let valueS0 = parseFloat(s0.css('transform').split(',')[5])
                 let toGoS0 = valueS0 - dif
-
+                console.log(toGoS0, arr[0])
                 if (arr.includes(Math.abs(toGoS0))) {
                     let valueS1 = parseFloat(s1.css('transform').split(',')[5])
                     let toGoS1 = valueS1 - dif
@@ -156,10 +156,11 @@ const Home = () => {
                     s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                     s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
                 }
-                if(Math.abs(valueS0) != arr[0]){
+
+                if(Math.abs(toGoS0) != arr[0] && arr.indexOf(Math.abs(toGoS0)) > -1){
                     $('.smooth-navbar').addClass('active')
                 }
-                else{
+                else if(Math.abs(toGoS0) == arr[0] && arr.indexOf(Math.abs(toGoS0)) > -1){
                     $('.smooth-navbar').removeClass('active')
                 }
                 
@@ -168,7 +169,11 @@ const Home = () => {
             if (e.code == 'ArrowUp') {
                 let valueS0 = parseFloat(s0.css('transform').split(',')[5])
                 let toGoS0 = valueS0 + dif
-
+                if(valueS0 == arr[0]){
+                    toGoS0 = 0
+                }
+                
+                console.log(toGoS0, arr[0])
                 if (arr.includes(Math.abs(toGoS0)) && valueS0 != 0) {
                     let valueS1 = parseFloat(s1.css('transform').split(',')[5])
                     let toGoS1 = valueS1 + dif
@@ -182,10 +187,10 @@ const Home = () => {
                     s2.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS2})`);
                     s3.css('transform', `matrix(1, 0, 0, 1, 0, ${toGoS3})`);
                 }
-                if(Math.abs(toGoS0) != arr[0]){
+                if(Math.abs(toGoS0) != arr[0] && arr.indexOf(Math.abs(toGoS0)) > -1){
                     $('.smooth-navbar').addClass('active')
                 }
-                else{
+                else if(Math.abs(toGoS0) == arr[0] && arr.indexOf(Math.abs(toGoS0)) > -1){
                     $('.smooth-navbar').removeClass('active')
                 }
                 
