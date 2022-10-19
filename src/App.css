@@ -4,19 +4,56 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --fontsize-h1: 32px;
+    --fontsize-h2: 24px;
+    --fontsize-h3: 22px;
+    --fontsize-h4: 20px;
+
+    --fontsize-p:18px;
+
+    --clr-h1:#187418;
+    --clr-h2: #ff6347;
+    --clr-p: #575757;
+}
+h1{
+    font-size: var(--fontsize-h1);
+    color:var(--clr-h1)
+}
+h2{
+    font-size: var(--fontsize-h2);
+    color: var(--clr-h2);
+}
+h3{
+    font-size: var(--fontsize-h3);
+}
+h4{
+    font-size: var(--fontsize-h4);
+}
+p{
+    font-size: var(--fontsize-p);
+    width: 60%;
+    margin: 10px;
+    text-align: center;
+    color: var(--clr-p);
+}
+
 html {
     overflow: auto;
 }
-img{
+
+img {
     display: block;
     width: 100%;
 }
+
 ul,
-li{
+li {
     text-decoration: none;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -35,12 +72,12 @@ section {
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    transition: 1s all cubic-bezier(.55,.085,0,.99);
-}
-section:nth-child(2n+1){
-    background-color: #c0c0c0;
+    transition: 1s all cubic-bezier(.55, .085, 0, .99);
 }
 
+section:nth-child(2n+1) {
+    background-color: #c0c0c0;
+}
 
 .s0,
 .s1,
@@ -48,21 +85,28 @@ section:nth-child(2n+1){
 .s3 {
     transform: translate3d(0px, 0%, 0px);
 }
-.s0.active{
+
+.s0.active {
     transform: translate3d(0px, -100%, 0px);
 }
+
+.s0,
 .s1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.s1.active{
+
+.s1.active {
     transform: translate3d(0px, -100%, 0px);
 }
-.s2.active{
+
+.s2.active {
     transform: translate3d(0px, -200%, 0px);
 }
-.s3.active{
+
+.s3.active {
     transform: translate3d(0px, -300%, 0px);
 }
 
@@ -71,4 +115,16 @@ section:nth-child(2n+1){
     min-height: 600px;
     max-height: 700px;
     overflow-y: auto;
+}
+
+.box-section{
+    border: 8px solid;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: dashed;
+    border-color: #ebebeb;
 }

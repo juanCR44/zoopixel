@@ -3,16 +3,6 @@ import $ from 'jquery';
 
 const Navbar = ()=>{
 
-    useEffect(() => {
-        $(window).on('scroll', function (e) {
-            if ($(this).scrollTop()! > 1) {
-                $('.smooth-navbar').addClass('active')
-            }
-            else {
-                $('.smooth-navbar').removeClass('active')
-            }
-        });
-    }, [])
 
     return(
         <div className="smooth-navbar">
