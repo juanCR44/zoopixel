@@ -224,57 +224,32 @@ const Home = () => {
             </section>
             <section className='s1'>
 
-
-                {/*<div className="godown" onScroll={() => onScroll()} ref={listInnerRef}>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eligendi nulla aliquid delectus sunt voluptatibus mollitia enim ut aliquam, tempore veritatis dolor commodi architecto repudiandae sit eius distinctio ipsam cupiditate!
-                    Sunt quibusdam expedita harum corrupti, obcaecati voluptatibus quo illum. Cumque voluptatum repudiandae molestiae vero minus quidem eius dignissimos facere voluptatibus obcaecati nihil esse, voluptate error sed quas. Distinctio, odio eum.
-                    Quo earum eligendi blanditiis repellat nam dignissimos magnam rem sed, hic culpa maxime eius alias illum repellendus. Delectus in, laudantium vel sit laborum eaque doloremque est quod. Esse, consequatur nostrum.
-                    Totam possimus eligendi ex consequuntur nostrum atque amet molestias, deserunt quos vel adipisci porro, corrupti, nihil provident. Accusantium ipsa sapiente debitis ab adipisci, doloremque eaque est architecto, exercitationem voluptatibus maiores.
-                    Itaque veniam nisi eligendi veritatis rem doloribus rerum inventore magni numquam, ducimus reiciendis aut similique voluptas expedita fugit sequi nihil totam eaque est placeat labore dolores. Expedita modi unde nesciunt.
-                    Iure, quis, neque, debitis officia nostrum repellat tempore ipsam consectetur eveniet provident sint eum sapiente vero eius quisquam aspernatur quasi ullam cumque impedit aut natus perspiciatis. Esse id alias maiores.
-                    Incidunt ipsa dolore nobis iste fugiat, libero eius necessitatibus beatae porro culpa! Natus a dolor perspiciatis itaque corrupti magnam, aut, laborum officia praesentium officiis quaerat! Dignissimos nihil unde recusandae soluta.
-                    Quis, ea velit officia, amet ex blanditiis esse, quaerat illo iusto molestiae dolores dignissimos? Vero voluptatum quaerat fugit ratione asperiores temporibus, voluptatem, ab dolorem est tempore incidunt aperiam. Asperiores, ut?
-                    Amet, veritatis qui temporibus dignissimos aut earum fugiat, ducimus repellendus eum tempore quis odio voluptas ipsam. Quidem totam deserunt eos tenetur doloribus fugiat, assumenda eum vero nisi perspiciatis, aliquid in!
-                    Assumenda, ipsam. Dolorum maiores impedit delectus quisquam provident excepturi, debitis, optio repellendus iusto explicabo qui nisi aliquid assumenda, perferendis deleniti soluta at odio laudantium nam aliquam ab illo. Nostrum, id!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eligendi nulla aliquid delectus sunt voluptatibus mollitia enim ut aliquam, tempore veritatis dolor commodi architecto repudiandae sit eius distinctio ipsam cupiditate!
-                    Sunt quibusdam expedita harum corrupti, obcaecati voluptatibus quo illum. Cumque voluptatum repudiandae molestiae vero minus quidem eius dignissimos facere voluptatibus obcaecati nihil esse, voluptate error sed quas. Distinctio, odio eum.
-                    Quo earum eligendi blanditiis repellat nam dignissimos magnam rem sed, hic culpa maxime eius alias illum repellendus. Delectus in, laudantium vel sit laborum eaque doloremque est quod. Esse, consequatur nostrum.
-                    Totam possimus eligendi ex consequuntur nostrum atque amet molestias, deserunt quos vel adipisci porro, corrupti, nihil provident. Accusantium ipsa sapiente debitis ab adipisci, doloremque eaque est architecto, exercitationem voluptatibus maiores.
-                    Itaque veniam nisi eligendi veritatis rem doloribus rerum inventore magni numquam, ducimus reiciendis aut similique voluptas expedita fugit sequi nihil totam eaque est placeat labore dolores. Expedita modi unde nesciunt.
-                    Iure, quis, neque, debitis officia nostrum repellat tempore ipsam consectetur eveniet provident sint eum sapiente vero eius quisquam aspernatur quasi ullam cumque impedit aut natus perspiciatis. Esse id alias maiores.
-                    Incidunt ipsa dolore nobis iste fugiat, libero eius necessitatibus beatae porro culpa! Natus a dolor perspiciatis itaque corrupti magnam, aut, laborum officia praesentium officiis quaerat! Dignissimos nihil unde recusandae soluta.
-                    Quis, ea velit officia, amet ex blanditiis esse, quaerat illo iusto molestiae dolores dignissimos? Vero voluptatum quaerat fugit ratione asperiores temporibus, voluptatem, ab dolorem est tempore incidunt aperiam. Asperiores, ut?
-                    Amet, veritatis qui temporibus dignissimos aut earum fugiat, ducimus repellendus eum tempore quis odio voluptas ipsam. Quidem totam deserunt eos tenetur doloribus fugiat, assumenda eum vero nisi perspiciatis, aliquid in!
-                    Assumenda, ipsam. Dolorum maiores impedit delectus quisquam provident excepturi, debitis, optio repellendus iusto explicabo qui nisi aliquid assumenda, perferendis deleniti soluta at odio laudantium nam aliquam ab illo. Nostrum, id!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eligendi nulla aliquid delectus sunt voluptatibus mollitia enim ut aliquam, tempore veritatis dolor commodi architecto repudiandae sit eius distinctio ipsam cupiditate!
-                    Sunt quibusdam expedita harum corrupti, obcaecati voluptatibus quo illum. Cumque voluptatum repudiandae molestiae vero minus quidem eius dignissimos facere voluptatibus obcaecati nihil esse, voluptate error sed quas. Distinctio, odio eum.
-                    Quo earum eligendi blanditiis repellat nam dignissimos magnam rem sed, hic culpa maxime eius alias illum repellendus. Delectus in, laudantium vel sit laborum eaque doloremque est quod. Esse, consequatur nostrum.
-                    Totam possimus eligendi ex consequuntur nostrum atque amet molestias, deserunt quos vel adipisci porro, corrupti, nihil provident. Accusantium ipsa sapiente debitis ab adipisci, doloremque eaque est architecto, exercitationem voluptatibus maiores.
-                    Itaque veniam nisi eligendi veritatis rem doloribus rerum inventore magni numquam, ducimus reiciendis aut similique voluptas expedita fugit sequi nihil totam eaque est placeat labore dolores. Expedita modi unde nesciunt.
-                    Iure, quis, neque, debitis officia nostrum repellat tempore ipsam consectetur eveniet provident sint eum sapiente vero eius quisquam aspernatur quasi ullam cumque impedit aut natus perspiciatis. Esse id alias maiores.
-                    Incidunt ipsa dolore nobis iste fugiat, libero eius necessitatibus beatae porro culpa! Natus a dolor perspiciatis itaque corrupti magnam, aut, laborum officia praesentium officiis quaerat! Dignissimos nihil unde recusandae soluta.
-                    Quis, ea velit officia, amet ex blanditiis esse, quaerat illo iusto molestiae dolores dignissimos? Vero voluptatum quaerat fugit ratione asperiores temporibus, voluptatem, ab dolorem est tempore incidunt aperiam. Asperiores, ut?
-                    Amet, veritatis qui temporibus dignissimos aut earum fugiat, ducimus repellendus eum tempore quis odio voluptas ipsam. Quidem totam deserunt eos tenetur doloribus fugiat, assumenda eum vero nisi perspiciatis, aliquid in!
-                    Assumenda, ipsam. Dolorum maiores impedit delectus quisquam provident excepturi, debitis, optio repellendus iusto explicabo qui nisi aliquid assumenda, perferendis deleniti soluta at odio laudantium nam aliquam ab illo. Nostrum, id!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et eligendi nulla aliquid delectus sunt voluptatibus mollitia enim ut aliquam, tempore veritatis dolor commodi architecto repudiandae sit eius distinctio ipsam cupiditate!
-                    Sunt quibusdam expedita harum corrupti, obcaecati voluptatibus quo illum. Cumque voluptatum repudiandae molestiae vero minus quidem eius dignissimos facere voluptatibus obcaecati nihil esse, voluptate error sed quas. Distinctio, odio eum.
-                    Quo earum eligendi blanditiis repellat nam dignissimos magnam rem sed, hic culpa maxime eius alias illum repellendus. Delectus in, laudantium vel sit laborum eaque doloremque est quod. Esse, consequatur nostrum.
-                    Totam possimus eligendi ex consequuntur nostrum atque amet molestias, deserunt quos vel adipisci porro, corrupti, nihil provident. Accusantium ipsa sapiente debitis ab adipisci, doloremque eaque est architecto, exercitationem voluptatibus maiores.
-                    Itaque veniam nisi eligendi veritatis rem doloribus rerum inventore magni numquam, ducimus reiciendis aut similique voluptas expedita fugit sequi nihil totam eaque est placeat labore dolores. Expedita modi unde nesciunt.
-                    Iure, quis, neque, debitis officia nostrum repellat tempore ipsam consectetur eveniet provident sint eum sapiente vero eius quisquam aspernatur quasi ullam cumque impedit aut natus perspiciatis. Esse id alias maiores.
-                    Incidunt ipsa dolore nobis iste fugiat, libero eius necessitatibus beatae porro culpa! Natus a dolor perspiciatis itaque corrupti magnam, aut, laborum officia praesentium officiis quaerat! Dignissimos nihil unde recusandae soluta.
-                    Quis, ea velit officia, amet ex blanditiis esse, quaerat illo iusto molestiae dolores dignissimos? Vero voluptatum quaerat fugit ratione asperiores temporibus, voluptatem, ab dolorem est tempore incidunt aperiam. Asperiores, ut?
-                    Amet, veritatis qui temporibus dignissimos aut earum fugiat, ducimus repellendus eum tempore quis odio voluptas ipsam. Quidem totam deserunt eos tenetur doloribus fugiat, assumenda eum vero nisi perspiciatis, aliquid in!
-                    Assumenda, ipsam. Dolorum maiores impedit delectus quisquam provident excepturi, debitis, optio repellendus iusto explicabo qui nisi aliquid assumenda, perferendis deleniti soluta at odio laudantium nam aliquam ab illo. Nostrum, id!
-                </div>*/}
-
+                <div className="box-section">
+                    <h1>Hola que hace</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod sint incidunt aut nam distinctio ex harum provident, debitis saepe, sequi voluptates nulla aperiam accusantium consequuntur quae facere praesentium dolores?</p>
+                    <h2>Sub title</h2>
+                    <h3>Sub sub title</h3>
+                    <h4>sub sub title</h4>
+                </div>
 
             </section>
             <section className='s2'>
-
+                <div className="box-section">
+                    <h1>Hola que hace</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod sint incidunt aut nam distinctio ex harum provident, debitis saepe, sequi voluptates nulla aperiam accusantium consequuntur quae facere praesentium dolores?</p>
+                    <h2>Sub title</h2>
+                    <h3>Sub sub title</h3>
+                    <h4>sub sub title</h4>
+                </div>
             </section>
             <section className='s3'>
-
+                <div className="box-section">
+                    <h1>Hola que hace</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod sint incidunt aut nam distinctio ex harum provident, debitis saepe, sequi voluptates nulla aperiam accusantium consequuntur quae facere praesentium dolores?</p>
+                    <h2>Sub title</h2>
+                    <h3>Sub sub title</h3>
+                    <h4>sub sub title</h4>
+                </div>
             </section>
         </div>
 

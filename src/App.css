@@ -75,27 +75,20 @@ section {
     transition: 1s all cubic-bezier(.55, .085, 0, .99);
 }
 
-section:nth-child(2n+1) {
-    background-color: #c0c0c0;
-}
 
 .s0,
 .s1,
 .s2,
 .s3 {
     transform: translate3d(0px, 0%, 0px);
-}
-
-.s0.active {
-    transform: translate3d(0px, -100%, 0px);
-}
-
-.s0,
-.s1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.s0.active {
+    transform: translate3d(0px, -100%, 0px);
 }
 
 .s1.active {
