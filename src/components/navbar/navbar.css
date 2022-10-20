@@ -2,19 +2,18 @@
     position: fixed;
     display: flex;
     color: #ffff;
-    background-color: #fff;
+    background-image: #fff;
     align-items: center;
     width: 100%;
     justify-content: space-between;
     height: auto;
     padding: 4px 0;
     z-index: 1000;
-    transition: .3s padding ease;
+    transition: .3s padding ease, .3s background-image ease;
 }
 .smooth-navbar.active {
-    background-image: linear-gradient(114.85deg,rgba(199, 199, 199, 0.75),rgba(206, 206, 206, 0.8) 100.24%);
+    background-image: linear-gradient(114.85deg,rgba(240, 240, 240, 0.75),rgba(245, 245, 245, 0.8) 100.24%);
     backdrop-filter: blur(20px);
-    background-color: #0664f0;
     padding: 0;
 }
 .navbar-logo{
