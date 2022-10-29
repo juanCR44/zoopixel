@@ -43,10 +43,6 @@ const Home = () => {
             } else {
                 setDivBottom(false)
             }
-            //if(scrollTop != 0 || ((scrollTop + clientHeight) != scrollHeight)){
-            //    setDivTop(false)
-            //    setDivBottom(false)
-            //}
         }
     };
 
@@ -214,12 +210,11 @@ const Home = () => {
         <div className="casino-body">
             <Navbar />
             <section className='s0'>
-                <div className="box-section">
-                    <h1>Hola que hace</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod sint incidunt aut nam distinctio ex harum provident, debitis saepe, sequi voluptates nulla aperiam accusantium consequuntur quae facere praesentium dolores?</p>
-                    <h2>Sub title</h2>
-                    <h3>Sub sub title</h3>
-                    <h4>sub sub title</h4>
+                <div className="choice-left">
+                    <p>JEJE</p>
+                </div>
+                <div className="choice-right" onClick={()=>window.location.href='/games'}>
+                    <p>GAME</p>
                 </div>
             </section>
             <section className='s1'>
@@ -251,9 +246,6 @@ const Home = () => {
                     <h4>sub sub title</h4>
                 </div>
             </section>
-
-
-            
         </div>
     );
 }
